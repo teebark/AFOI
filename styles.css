@@ -1,0 +1,235 @@
+/* --- COLOR LIBRARY ---
+
+lt. blue: #b1cdeb;
+bt. blue: #4e9cf1;
+lt. orange: #f3de69;
+dk. orange: #f5d212;
+
+--------------------- */
+
+body{
+	margin:0;
+	padding:0;
+	font-size:62.5%;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#333;
+	line-height:1.5em;
+	background:#9b9b9b url(../images/bg_main.gif) top center repeat-y;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, dl, ol, li, dt, dd{
+	margin:0;
+	padding:0;
+}
+
+
+/*------- HEADER --------------------- */
+
+#header{
+	width:740px;
+	padding:0 30px 0 30px;
+	margin:0 auto 0 auto;
+	height: 176px;
+}
+
+h1{
+	width:138px;
+	height:136px;
+	display:block;
+	background:url(../images/logo_afoi.gif) top left  no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+	outline:none;
+	float:left;
+	margin:20px 0;
+}
+
+#nav{
+	float:left;
+	margin:20px 0 20px 30px;
+	width:570px;
+}
+
+#nav dl{
+	float:left;	
+	width:140px;
+}
+
+#nav dl dt{
+	margin-bottom:5px;
+}
+
+
+#nav dl dt a{
+	font-weight:bold;
+	font-size:1.6em;
+	color:#92d050;
+	text-decoration:none;
+}
+
+#nav dl dt a:hover{
+	color:#333;
+}
+
+#nav dl dd a{
+	font-size:1.2em;
+	color:#333;
+	text-decoration:none;
+	border-left:1px solid #333;
+	margin:0;
+	line-height:2em;
+	padding:3px 0 6px 4px;
+}
+
+#nav dl dd a:hover{
+	color:#92d050;
+}
+
+/*----- CALLOUT --------------------- */
+
+#callout{
+	clear:both;
+	width:100%;
+	background: #92d050;
+}
+
+#callout .text{
+	width:740px;
+	padding:20px 30px;
+	margin:0 auto 0 auto;
+	color:#000;
+	font-weight:bold;
+	font-size:1.7em;
+	line-height:1.5em;
+}
+
+/*----- WRAP --------------------- */
+
+#wrap{
+	width:740px;
+	padding:40px 30px 0 30px;
+	margin:0 auto 0 auto;
+}
+
+/*---- CONTACT --------------------- */
+
+#contact{
+	width:150px;
+	float:left;
+	margin:0 25px 0 0;
+}
+
+#contact h3{
+	font-size:1.7em;
+	margin:0;
+	padding:0;
+	color: #92d050;
+}
+
+#contact ul{
+	list-style:none;
+	margin:5px 0;
+	padding:0;
+	line-height:1.5em;
+	font-size:1.1em;
+}
+
+#contact a{
+	color:#333;
+	text-decoration:none;
+}
+
+#contact a:hover{
+	color:#4e9cf1;
+	text-decoration:underline;
+}
+
+#contact form {
+	margin-top: 30px;
+}
+
+/*---- CONTENT --------------------- */
+
+#content{
+	margin:0 0 50px 175px;
+	font-size:1.4em;
+	line-height:1.5em;
+}
+
+#content h2{
+	margin-bottom:1em;
+	color:#92d050;
+	font-size:1.5em;
+}
+
+#content h3 {
+	padding-top: 15px;
+}
+
+#content p{
+	margin:1em 0;
+}
+
+#content ul, #content ol{
+	margin:1em 1.5em;
+}
+
+#content ul.faqList{
+	font-size:.85em;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#content li{
+	margin:0.5em 0;
+}
+#content ol.faqNav, #content ol.linksNav {
+	margin: 5px 0 20px 20px;
+	padding: 0 0 0 25px;
+}
+#content ol.faqNav li, #content ol.linksNav li {
+	font-size: 0.9em;
+	margin: 0 0 0 0;
+}
+.question {
+	font-weight: bold;
+	padding-left: 20px;
+}
+.answer {
+	font-size: 0.9em;
+	padding-left: 35px;
+}
+.answerLinks {
+	font-size: .9em;
+	padding-left: 35px;
+}
+.bold {
+	font-weight: bold;
+}
+
+dl.board {
+	margin-bottom: 20px;
+}
+dl.board dt{
+	font-weight:bold;
+	margin-top:1em;
+}
+
+table{
+	margin:1em 0 2em 0;
+}
+
+table.pad td {
+	padding: 2px 5px;
+}
+
+#services #content form {
+	margin: 5t0px 0;
+}
